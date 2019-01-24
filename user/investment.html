@@ -204,7 +204,15 @@
     </div>
 </nav>
 <!--end header-->
-
+<script>
+    function choose(id){
+        var plans = document.getElementsByClassName("investment_img");
+        for(var i=0;i < plans.length;i++){
+           plans[i].style.border="none";
+        }
+        return document.getElementById("plan"+id).style.border="";
+    }
+</script>
 <!--main-->
 <div class="content-wrapper">
     <div class="row">
@@ -220,43 +228,43 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="_plan">
-                                <a href="#" title="plan 1">
-                                    <img src="../assets/user/image/plan/1.png" alt="">
+                                <a href="javascript:void(0)" onclick="choose(1)" title="plan 1">
+                                    <img id="plan1" class="investment_img" src="../assets/user/image/plan/1.png" alt="" style="border:none;">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="_plan">
-                                <a href="#" title="plan 2">
-                                    <img src="../assets/user/image/plan/2.png" alt="">
+                                <a href="javascript:void(0)" onclick="choose(2)" title="plan 2">
+                                    <img id="plan2" class="investment_img" src="../assets/user/image/plan/2.png" alt="" style="">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="_plan">
-                                <a href="#" title="plan 3">
-                                    <img src="../assets/user/image/plan/3.png" alt="">
+                                <a href="javascript:void(0)" onclick="choose(3)" title="plan 3">
+                                    <img id="plan3" class="investment_img" src="../assets/user/image/plan/3.png" alt="" style="border:none;">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="_plan">
-                                <a href="#" title="plan 4">
-                                    <img src="../assets/user/image/plan/4.png" alt="">
+                                <a href="javascript:void(0)" onclick="choose(4)" title="plan 4">
+                                    <img id="plan4" class="investment_img" src="../assets/user/image/plan/4.png" alt="" style="border:none;">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="_plan">
-                                <a href="#" title="plan 5">
-                                    <img src="../assets/user/image/plan/5.png" alt="">
+                                <a href="javascript:void(0)" onclick="choose(5)" title="plan 5">
+                                    <img id="plan5" class="investment_img" src="../assets/user/image/plan/5.png" alt="" style="border:none;">
                                 </a>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="_plan">
-                                <a href="#" title="plan 6">
-                                    <img src="../assets/user/image/plan/6.png" alt="">
+                                <a href="javascript:void(0)" onclick="choose(6)" title="plan 6">
+                                    <img id="plan6" class="investment_img" src="../assets/user/image/plan/6.png" alt="" style="border:none;">
                                 </a>
                             </div>
                         </div>
