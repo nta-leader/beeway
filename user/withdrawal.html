@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="csrf-token" content="TIHgKf3jf9Am2po0eO2Nk5yHhTigbuTUVGLNgmhA">
 
-    <title>Investment</title>
+    <title>Deposit</title>
     <link rel="stylesheet" href="../assets/css/simple-line-icons.css">
     
     <link rel="stylesheet" href="../assets/user/font-awesome-4.7.0/css/font-awesome.min.css" />
@@ -129,7 +129,7 @@
         <div class="container d-flex flex-row h-100 align-items-center">
             <div class="text-center navbar-brand-wrapper d-flex align-items-center">
                 <a class="navbar-brand brand-logo" href="#dashboard"><img src="../assets/user/image/icon/LOGO_BEEWAY.png" /></a>
-                <a class="navbar-brand brand-logo-mini" href="#dashboard"><img src="../assets/user/image/icon/LOGO_BEEWAY.png" alt=" ltd"/></a>
+                <a class="navbar-brand brand-logo-mini" href="#dashboard"><img src="../assets/user/image/icon/LOGO_BEEWAY.png" alt=""/></a>
             </div>
             <div class="navbar-menu-wrapper d-flex align-items-center justify-content-between flex-grow-1">
                 <ul class="navbar-nav navbar-nav-right mr-0 ml-auto">
@@ -168,13 +168,13 @@
                         <span class="menu-title">Deposit</span></a>
                 </li>
 
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a href="investment.html" class="nav-link">
                         <img src="../assets/user/image/icon/3.png" alt=Iinvestment">
                         <span class="menu-title">Invest</span></a>
                 </li>
 
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a href="withdrawal.html" class="nav-link">
                         <img src="../assets/user/image/icon/4.png" alt="Withdrawal">
                         <span class="menu-title">Withdrawal</span></a>
@@ -205,123 +205,109 @@
 </nav>
 <!--end header-->
 
-<!--main-->
 <div class="content-wrapper">
+    <h2 class="title_header">Withdrawal</h2>
+    <div class="row">
+        <div class="col-md-6 grid-margin">
+            <div class="card card-statistics">
+                <div class="card-body p-4">
+                    <div class="active_deposit">
+                        <div class="your_partners total_profit">
+                            <img src="../assets/user/image/icon/1aa.png" alt="">
+                            <div class="info_status_partners">
+                                <span class="">Total Profix</span>
+                                <h3>Balance:</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="row">
         <div class="col-12 grid-margin">
-            <div class="card card-statistics">
-                <div class="card-body p-0">
-                    <h2 class="title_header" style="text-align: center;padding-top: 20px;border-bottom: 1px solid #fed883;">
-                        Investment<br>
-                        <span style="font-size: 13px;">
-                            Step #1 Choose investment plan
+            <div class="card">
+                <div class="card-body">
+                    <p for="amount">Amount to withdrawal</p>
+                    <div class="row pm_method">
+                        <input class="amount_to_withdrawal" type="text" name="name" value="" style="border:1px solid black;">
+                    </div>
+                    <span style="font-size: 12px;">
+                        <b>Attention!</b>
+                        <span style="color:red;"> Withdrawal fee will be charged 2%</span>
+                    </span>
+                </div>
+                <div class="card-body">
+                    <p for="amount">Payment method:</p>
+                    <div class="row pm_method">
+                        <div class="col-md-6 col-sm-5">
+                            <label for="pm_btc" class="method">
+                                <div class="form-check">
+                                    <label class="form-check-label">
+                                        <input type="radio" id="pm_btc" name="payment_method" value="BTC" class="form-check-input"> <i class="input-helper"></i><i class="input-helper"></i>
+                                        <i class="input-helper"></i>
+                                    </label>
+                                </div> <img src="../assets/user/image/icon/bitcoin.png" alt="">
+                            </label>
+                        </div>
+                        <div class="col-md-6 col-sm-5">
+                            <label for="pm_eth" class="method">
+                                <div class="form-check form-check-primary">
+                                    <label for="pm_eth" class="form-check-label">
+                                        <input type="radio" id="pm_eth" name="payment_method" value="ETH" class="form-check-input"> <i class="input-helper"></i><i class="input-helper"></i>
+                                        <i class="input-helper"></i>
+                                    </label>
+                                </div> <img src="../assets/user/image/icon/eth.png" alt="">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p for="amount">Receiving address:</p>
+                    <div class="row pm_method">
+                        <input class="amount_to_withdrawal" type="text" name="name" value="" style="border:1px solid black;">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p for="amount">Confirm Code:</p>
+                    <div style="margin-bottom: 10px;margin-top: -16px;">
+                        <span style="font-size: 12px;">
+                            Clink
+                            <span style="color:red;"> "Send Code"</span> to send the two-factor code to the gmail on your account and then enter the confirm code to confirm your identity
                         </span>
-                    </h2>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="_plan">
-                                <a href="#" title="plan 1">
-                                    <img src="../assets/user/image/plan/1.png" alt="">
-                                </a>
-                            </div>
+                    </div>
+                    <div class="row pm_method">
+                        <div class="send_code">
+                            <input class="amount_to_withdrawal" type="text" name="name" value="" style="border:1px solid black;">
+                            <button>Send Code</button>
                         </div>
-                        <div class="col-md-6">
-                            <div class="_plan">
-                                <a href="#" title="plan 2">
-                                    <img src="../assets/user/image/plan/2.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="_plan">
-                                <a href="#" title="plan 3">
-                                    <img src="../assets/user/image/plan/3.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="_plan">
-                                <a href="#" title="plan 4">
-                                    <img src="../assets/user/image/plan/4.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="_plan">
-                                <a href="#" title="plan 5">
-                                    <img src="../assets/user/image/plan/5.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="_plan">
-                                <a href="#" title="plan 6">
-                                    <img src="../assets/user/image/plan/6.png" alt="">
-                                </a>
-                            </div>
-                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p for="amount">You receive:</p>
+                    <div class="row pm_method">
+                        <button class="btn" style="background: #ffb822; color:white; margin-right: 10px;">Confirm</button>
+                        <button class="btn">Cancel</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-12 grid-margin">
-            <div class="card card-statistics">
-                <div class="card-body p-0">
-                    <h2 class="title_header" style="padding-left: 20px;padding-top: 22px; font-size: 23px;">
-                        Step #2
-                    </h2>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="your_partners" style="padding: 0px;">
-                                <div class="box_balance shadown">
-                                    Your blance: 
-                                </div>
-                                <div class="box_balance shadown">
-                                    Daily profit: 
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="your_partners" style="padding: 0px;">
-                                <div class="box_balance shadown">
-                                    Amount to invest:
-                                </div>
-                                <div class="box_balance shadown">
-                                    Start date:
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-12" style="margin-bottom:20px;padding-right: 15px;">
-                            <div class="btn-active">
-                                <a href="#" class="btn btn-primary btn-rounded btn-fw">investment now <i class="ti-arrow-right"></i></a>
-                                <a href="#" class="btn btn-info" style="background: #9E9E9E;border-color: #9E9E9E;">Cancel</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <div class="row">
         <div class="col-md-12">
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title">Investments history</h4>
+                    <h4 class="card-title">Transitions Lasted</h4>
                     <div class="row">
                         <div class="table-responsive">
                             <table id="order-listing" class="table">
                                 <thead>
-                                <tr>
-                                    <th>ID #</th>
-                                    <th>Start</th>
-                                    <th>Finish</th>
-                                    <th>Note</th>
-                                    <th>Amount</th>
-                                    <th>Status</th>
-                                </tr>
+                                    <tr>
+                                        <th>ID #</th>
+                                        <th>Amount</th>
+                                        <th>Receive Amount</th>
+                                        <th>Status</th>
+                                    </tr>
                                 </thead>
                                 <tbody>
                                 </tbody>
@@ -333,17 +319,14 @@
         </div>
     </div>
 </div>
-<!--end main-->
 
-<!--footer-->
 <footer class="footer">
     <div class="w-100 clearfix">
         <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2018 <a href="#" target="_blank">Beeway</a>. All rights reserved.</span>
         <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Investment Platform </span>
     </div>
 </footer>
-<!--end footer-->
-
+   
 <script src="../assets/user/js/vendor.bundle.base.js?ver=2"></script>
 <script src="../assets/user/js/vendor.bundle.addons.js?ver=2"></script>
 <script src="../assets/user/js/template.js?ver=2"></script>
@@ -356,6 +339,7 @@
         $(mdl).show();
     }
 </script>
+
 </body>
 </html>
 

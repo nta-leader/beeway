@@ -28542,8 +28542,8 @@ div.tagsinput span.tag a {
 
 .your_partners h3 {
   font-weight: 300;
-  color: #FF9800;
-  font-size: 18px;
+  color: #000000;
+  font-size: 28px;
 }
 
 
@@ -28935,18 +28935,20 @@ p {
 .method {
     background: #FFFFFF;
     line-height: 50px;
-    height: 57px;
+    height: auto;
     position: relative;
-    border-radius: 4px;
     width: 100%;
     text-align: center;
     cursor: pointer;
     border: 1px solid #439aff;
+    border-radius: 5px;
 }
 
 
 .method img {
-  width: 125px;
+  width: 75%;
+  padding: 15px;
+  max-height: 105px;
 }
 
 .method .form-check {
@@ -29167,6 +29169,40 @@ option {
 }
 ._plan img{
   width:100%;
+}
+.total_profit{width: 100%;padding: 0px;}
+.total_profit span{font-size: 20px;}
+.total_profit h3{font-size: 14px;}
+.card .card-body p{
+  font-size: 18px;
+}
+.amount_to_withdrawal{
+  width: 100%;
+  height: 40px;
+  border: 1px solid black;
+  margin: -2px 5px;
+  margin-top: -10px;
+  border-radius: 5px;
+  padding: 5px 5px 5px 15px;
+}
+.send_code{
+  width:100%;
+  position: relative;
+}
+.send_code input{
+  width: 99%;
+  border-radius: 20px 100px 100px 20px;
+}
+.send_code button{
+  position: absolute;
+  top: -8px;
+  right: -3px;
+  height: 41px;
+  border: 0px solid #ff9700;
+  background: #FF9800;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
 }
 /*-------------------------------------------------------------------*/
 /* === Layouts === */
