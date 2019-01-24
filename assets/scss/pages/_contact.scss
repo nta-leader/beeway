@@ -1,0 +1,231 @@
+/*==========================================
+    contact page > contact
+==========================================*/
+.contact {
+    padding: 108px 0 120px;
+    .section-title {
+        margin-bottom: 57px;
+        h2 {
+            margin-bottom: 22px;
+        }
+    }
+    .contact-form {
+        background: $white;
+        box-shadow: 0px 0px 250px 0px rgba(69, 81, 100, 0.1);
+        padding: 46px 50px 50px;
+        position: relative;
+        border-radius: 10px;
+        .form-group {
+            margin-bottom: 25px;
+            &.checkbox {
+                height: 100%;
+                .form-check {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    height: 100%;
+                    margin: 2px 0 0;
+                }
+            }
+            &.fieldset {
+                margin: 13px 0 21px;
+            }
+            label {
+                color: $heading-color;
+                font-size: 16px;
+                font-weight: 600;
+                margin-bottom: 13px;
+                .requred {
+                    color: $heading-color-2;
+                }
+            }
+            input.form-control {
+                height: 60px;
+                border: none;
+                background: #f3f6ff;
+                color: $heading-color;
+                font-size: 14px;
+                padding: 10px 30px;
+                font-weight: 500;
+                width: 100%;
+                &::placeholder {
+                    opacity: .8;
+                }
+            }
+            textarea {
+                height: 160px;
+                border: none;
+                background: #f3f6ff;
+                color: $heading-color;
+                font-size: 14px;
+                padding: 30px 30px;
+                font-weight: 500;
+                &::placeholder {
+                    opacity: .8;
+                }
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+            .form-check {
+                padding-left: 15px;
+                margin-right: 60px;
+                [type="radio"]:checked,
+                [type="radio"]:not(:checked) {
+                    position: absolute;
+                    left: -9999px;
+                }
+                [type="radio"]:checked + label,
+                [type="radio"]:not(:checked) + label
+                {
+                    position: relative;
+                    padding-left: 28px;
+                    cursor: pointer;
+                    line-height: 20px;
+                    display: inline-block;
+                    color: #666;
+                }
+                [type="radio"]:checked + label:before,
+                [type="radio"]:not(:checked) + label:before {
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 18px;
+                    height: 18px;
+                    border: 3px solid $heading-color-2;
+                    border-radius: 100%;
+                    background: #fff;
+                }
+                [type="radio"]:checked + label:after,
+                [type="radio"]:not(:checked) + label:after {
+                    content: '';
+                    width: 8px;
+                    height: 8px;
+                    background: $heading-color-2;
+                    position: absolute;
+                    top: 5px;
+                    left: 5px;
+                    border-radius: 100%;
+                    -webkit-transition: all 0.2s ease;
+                    transition: all 0.2s ease;
+                }
+                [type="radio"]:not(:checked) + label:after {
+                    opacity: 0;
+                    -webkit-transform: scale(0);
+                    transform: scale(0);
+                }
+                [type="radio"]:checked + label:after {
+                    opacity: 1;
+                    -webkit-transform: scale(1);
+                    transform: scale(1);
+                }
+            }
+        }
+        select {
+            height: 60px;
+            border: none;
+            background: #f3f6ff;
+            color: $heading-color;
+            font-size: 14px;
+            padding: 10px 30px;
+            font-weight: 500;
+            appearance: none;
+            position: relative;
+            &:focus {
+                box-shadow: none;
+            }
+        }
+        button {
+            height: 60px;
+            width: 160px;
+            background: $heading-color-2;
+            color: $white;
+            border-radius: 50px;
+            border: 1px solid $heading-color-2;
+            cursor: pointer;
+            @include transition($transition);
+            position: relative;
+            left: 50%;
+            margin-left: -80px;
+            margin-top: 15px;
+            outline: none;
+            &:hover {
+                background: $white;
+                color: $heading-color-2;
+            }
+            &.submit-button {
+                right: 0;
+                margin-left: 80px;
+            }
+            &.login-button {
+                margin-left: 0;
+                margin-top: 28px;
+                left: 0;
+            }
+        }
+        .forgetting-password {
+            display: inline-block;
+            margin-top: 28px;
+            text-align: right;
+            width: 100%;
+            font-size: 14px;
+            color: $descr-color;
+            font-weight: 600;
+        }
+
+        /* Base for label styling */
+        [type="checkbox"]:not(:checked),
+        [type="checkbox"]:checked {
+        position: absolute;
+        left: -9999px;
+        }
+        [type="checkbox"]:not(:checked) + label,
+        [type="checkbox"]:checked + label {
+        position: relative;
+        padding-left: 1.95em;
+        cursor: pointer;
+        margin: 0;
+        }
+
+        /* checkbox aspect */
+        [type="checkbox"]:not(:checked) + label:before,
+        [type="checkbox"]:checked + label:before {
+        content: '';
+        position: absolute;
+        left: 0; 
+        top: 1px;
+        width: 20px; 
+        height: 20px;
+        border-radius: 50px;
+        border: 3px solid $heading-color-2;
+        background: #fff;
+        }
+        /* checked mark aspect */
+        [type="checkbox"]:not(:checked) + label:after,
+        [type="checkbox"]:checked + label:after {
+        content: '';
+        position: absolute;
+        top: 6px; 
+        left: 5px;
+        width: 10px;
+        border-radius: 50px;
+        height: 10px;
+        font-size: 1.3em;
+        line-height: 0.8;
+        background: $heading-color-2;
+        transition: all .2s;
+        font-family: 'Lucida Sans Unicode', 'Arial Unicode MS', Arial;
+        }
+        /* checked mark aspect changes */
+        [type="checkbox"]:not(:checked) + label:after {
+        opacity: 0;
+        transform: scale(0);
+        }
+        [type="checkbox"]:checked + label:after {
+        opacity: 1;
+        transform: scale(1);
+        }
+
+    }
+}

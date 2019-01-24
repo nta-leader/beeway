@@ -1,0 +1,43 @@
+/*==========================================
+    we thinking global
+==========================================*/
+.we-thinking-global {
+    padding: 120px 0 120px;
+    .part-img {
+        img {
+            width: 100%;
+        }
+    }
+    .part-text {
+        h2 {
+            color: $heading-color;
+            margin-bottom: 15px;
+            line-height: 1.5;
+            font-weight: 700;
+            span {
+                color: $heading-color-2;
+            }
+        }
+        p {
+            color: $descr-color;
+            line-height: 30px;
+        }
+        a {
+            display: inline-block;
+            color: #fff;
+            font-weight: 600;
+            font-size: 16px;
+            background: transparent;
+            border: 1px solid $heading-color-2;
+            color: $heading-color-2;
+            padding: 15px 51px;
+            border-radius: 50px;
+            margin: 18px 0 0;
+            transition: $transition;
+            &:hover {
+                background: $heading-color-2;
+                color: $white;
+            }
+        }
+    }
+}

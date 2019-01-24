@@ -1,0 +1,332 @@
+/*==========================================
+    investment-plan page > transaction
+==========================================*/
+.transaction {
+    padding: 108px 0 104px;
+    .section-title {
+        margin-bottom: 57px;
+    }
+    .transaction-area {
+        .nav-tabs {
+            border-bottom: none;    
+            display: inline-flex;
+            position: relative;
+            left: 50%;
+            margin-left: -156px;
+            margin-bottom: 50px;
+            .nav-item {
+                .nav-link {
+                    display: inline-block;
+                    color: #fff;
+                    font-weight: 600;
+                        background: transparent;
+                        border: 1px solid #1add97;
+                    font-size: 16px;
+                    border: 1px solid #1add97;
+                    padding: 15px 0;
+                    text-align: center;
+                    width: 140px;
+                    border-radius: 50px;
+                    margin-right: 30px;
+                    color: #1add97;
+                    &.active, &:focus, &:hover {
+                        background: #1add97;
+                        border: 1px solid #1add97;
+                        color: #fff;
+                    }
+                }
+                &:last-child {
+                    .nav-link {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+        .tab-content {
+            .table {
+                box-shadow: 0px 0px 250px 0px rgba(69, 81, 100, 0.1);
+                thead {
+                    background: #f8fefc;
+                    th {
+                        border: none;
+                        padding: 23px 15px;
+                        font-size: 22px;
+                        font-weight: 600;
+                        color: $heading-color;
+                        &:first-child {
+                            padding-left: 38px;
+                        }
+                    }
+                    td {
+                        padding: 15px 0;
+                    }
+                }
+                tbody {
+                    tr {
+                        &:last-child {
+                            th {
+                                padding-bottom: 30px;
+                            }
+                        }
+                        th {
+                            border-top: none;
+                            padding-left: 40px;
+                            .user-img {
+                                width: 50px;
+                                height: 50px;
+                                border-radius: 50px;
+                                overflow: hidden;
+                                margin-right: 20px;
+                                img {
+                                    width: 100%;
+                                }
+                            }
+                            span {
+                                font-size: 16px;
+                                color: $heading-color;
+                                padding-top: 15px;
+                            }
+                        }
+                        td {
+                            padding: 28px 15px;
+                            border-top: none;
+                            color: $heading-color;
+                            font-size: 16px;
+                            &:last-child {
+                                padding-right: 40px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/*==========================================
+    investment-plan page > pricing plan
+==========================================*/
+.pricing {
+    padding: 110px 0 151px;
+    position: relative;
+    z-index: 2;
+    .section-title {
+        h2 {
+            color: $white;
+        }
+        p {
+            color: $white;
+        }
+    }
+    .bg-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        bottom: 0;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .feature-bar {
+        background-image: linear-gradient(to left top, #6a38da, #8e67f3);
+        border-radius: 5px;
+        height: 40px;
+        margin-bottom: 20px;
+        position: relative;
+        &:after, &:before {
+             top: 100%;
+            left: 50%;
+            border: solid transparent;
+            content: " ";
+            height: 0;
+            width: 0;
+            position: absolute;
+            pointer-events: none;
+        }
+        &:after {
+            border-color: rgba(108, 59, 219, 0);
+            border-top-color: #6c3bdb;
+            border-width: 6px;
+            margin-left: -6px;
+        }
+        &:before {
+            border-color: rgba(108, 59, 219, 0);
+            border-top-color: #6c3bdb;
+            border-width: 12px;
+            margin-left: -12px;
+        }
+        h4 {
+            color: $white;
+            text-align: center;
+            font-size: 16px;
+            line-height: 40px;
+        }
+    }
+    .single-plan {
+        background: $white;
+        text-align: center;
+        padding: 40px 40px 30px;
+        border-radius: 10px;
+        position: relative;
+        margin-top: 60px;
+        &.popular {
+            background-image: -webkit-linear-gradient(top, #8e67f3, #6a38da);
+            margin-top: 0;
+            h3, h4, li, h5 {
+                color: $white;
+            }
+            a.start-button {
+                background: #1add97;
+                @include transition($transition);
+                &:after {
+                    display: none;
+                }
+                &:hover {
+                    background: $white;
+                    color: #1add97;
+                }
+            }
+        }
+        h3 {
+            font-size: 24px;
+            color: #1add97;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        h4 {
+            font-size: 16px;
+            color: $heading-color;
+            font-weight: 600;
+            margin-bottom: 13px;
+        }
+        ul {
+            li {
+                color: $descr-color;
+                font-size: 16px;
+                padding: 7px 0;
+            }
+        }
+        h5 {
+            color: #1add97;
+            font-weight: 600;
+            margin-top: 21px;
+            margin-bottom: 34px;
+            .price {
+                font-size: 32px;
+                margin-bottom: 2px;
+                display: inline-block;
+            }
+            .time {
+                font-size: 14px;
+            }
+        }
+        a.start-button {
+            display: inline-block;
+            background-image: -webkit-linear-gradient(left, #8e67f3, #6a38da);
+            padding: 20px 0;
+            font-size: 16px;
+            font-weight: 600;
+            color: $white;
+            width: 160px;
+            border-radius: 50px;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            margin-left: -80px;
+            margin-bottom: -30px;
+            z-index: 2;
+            &:after {
+                position: absolute;
+                content: '';
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                border-radius: 50px;
+                background-image: -webkit-linear-gradient(left, #6a38da, #8e67f3);
+                z-index: -1;
+                opacity: 0;
+                @include transition($transition);
+            }
+            &:hover {
+                &:after {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+/*==========================================
+    investment-plan page > payment
+==========================================*/
+.payment {
+    padding: 118px 0 120px;
+    .section-title {
+        margin-top: -10px;
+        h2 {
+            margin-bottom: 21px;
+        }
+    }
+    .part-accept {
+        .single-accept {
+            width: 65px;
+            display: inline-block;
+            margin-right: 10px;
+            margin-top: 10px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .part-form {
+        background-color: $white;
+        box-shadow: 0px 30px 100px 0px rgba(0, 0, 0, 0.05);
+        padding: 33px 30px 40px;
+        border-radius: 10px;
+        h3 {
+            margin-bottom: 14px;
+        }
+        .payment-form {
+            .form-group {
+                margin-bottom: 24px;
+                label {
+                    color: $heading-color;
+                    font-size: 18px;
+                    margin-bottom: 0;
+                }
+                input {
+                    border: none;
+                    border-bottom: 1px solid #ccced9;
+                    padding: 0;
+                    padding: 8px 0;
+                    height: 40px;
+                    color: $heading-color;
+                    font-size: 18px;
+                }
+            }
+            button {
+                display: inline-block;
+                background: #1add97;
+                @include transition($transition);
+                height: 50px;
+                font-size: 16px;
+                font-weight: 600;
+                color: $white;
+                width: 160px;
+                border-radius: 50px;
+                border: 1px solid #1add97;
+                margin-top: 24px;
+                cursor: pointer;
+                &:hover {
+                    background: $white;
+                    color: #1add97;
+                }
+            }
+        }
+    }
+}
+

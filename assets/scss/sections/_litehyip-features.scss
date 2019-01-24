@@ -1,0 +1,55 @@
+/*==========================================
+    litehyip feature
+==========================================*/
+.litehyip-features {
+    padding: 110px 0 97px;
+    position: relative;
+    z-index: 2;
+    .bg-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        bottom: 0;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .single-feature {
+        &:hover {
+            .part-icon {
+                background: #1add97;
+                color: #fff;
+            }
+        }
+        .part-icon {
+            width: 80px;
+            height: 80px;
+            background: #fff;
+            color: #1add97;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 80px;
+            font-size: 35px;
+            box-shadow: 0px 16px 84px -20px rgba(26,221,151,1);
+            margin-bottom: 24px;
+            transition: $transition;
+        }
+        .part-text {
+            h3 {
+                color: #455164;
+                font-weight: 600;
+                font-size: 24px;
+                margin-bottom: 15px;
+            }
+            p {
+                color: #3f4b6e;
+                line-height: 30px;
+            }
+        }
+    }
+}
+.litehyip-features.about-page {
+    padding: 110px 0 99px;
+}

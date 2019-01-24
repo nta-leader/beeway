@@ -1,0 +1,90 @@
+/*==========================================
+    footer
+==========================================*/
+.footer {
+    padding: 100px 0 0;
+    background: #1e3056;
+    .about-area {
+        a {
+            margin-bottom: 21px;
+            display: inline-block;
+        }
+        p {
+            color: $white;
+            line-height: 30px;
+        }
+    }
+    .social {
+        a {
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            color: $white;
+            text-align: center;
+            line-height: 30px;
+            font-size: 14px;
+            border-radius: 5px;
+            margin-top: 18px;
+            margin-right: 8px;
+            &:nth-child(1) {
+                background: #254887; 
+            }
+            &:nth-child(2) {
+                background: #00afe9;
+            }
+            &:nth-child(3) {
+                background: #d14232;
+            }
+            &:nth-child(4) {
+                background: #329ad1;
+            }
+        }
+    }
+    .copyright {
+        border-top: 1px solid rgba(255, 255, 255, 0.10);
+        padding: 26px 0 30px;
+        height: 80px;
+        margin-top: 86px;
+        p {
+            color: $white;
+            font-size: 14px;
+            margin: 0;
+        }
+    }
+    .links {
+        h3 {
+            color: $white;
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 21px;
+        }
+        li {
+            a {
+                display: inline-block;
+                color: $white;
+                font-size: 16px;
+                padding: 11px 0;
+                &:hover {
+                    color: $heading-color-2;
+                    @include transition($transition);
+                }
+            }
+        }
+    }
+    .address {
+        h3 {
+            color: $white;
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 21px;
+        }
+        li {
+            color: $white;
+            font-size: 16px;
+            padding: 11px 0;
+        }
+    }
+}
+.footer.investment-page {
+    padding: 98px 0 0px;
+}

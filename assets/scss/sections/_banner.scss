@@ -1,0 +1,49 @@
+/*==========================================
+    banner
+==========================================*/
+.banner {
+    background: url('../img/banner-bg.png') center bottom no-repeat;
+    background-size: cover;
+    padding: 307px 0 470px;
+    width: 100%;
+    position: relative;
+    .banner-content {
+        text-align: center;
+        h1 {
+            color: #fff;
+            font-weight: 700;
+            font-size: 48px;
+            text-transform: capitalize;
+            margin-bottom: 20px;
+        }
+        p {
+            color: #fff;
+            font-weight: 500;
+            line-height: 30px;
+        }
+        a {
+            display: inline-block;
+            color: #fff;
+            font-weight: 600;
+            background: #1add97;
+            font-size: 16px;
+            border: 1px solid #1add97;
+            padding: 15px 51px;
+            border-radius: 50px;
+            margin: 18px 8px 0;
+            transition: $transition;
+            &:hover {
+                background: transparent;
+                border: 1px solid #fff;
+            }
+            &:last-child {
+                background: transparent;
+                border: 1px solid #fff;
+                &:hover {
+                    background: #1add97;
+                    border: 1px solid #1add97;
+                }
+            }
+        }
+    }
+}

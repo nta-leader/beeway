@@ -1,0 +1,26 @@
+/*==========================================
+    page title
+==========================================*/
+.page-title {
+    background: url(../img/info-feature-bg.png) center bottom no-repeat;
+    background-size: cover;
+    padding: 208px 0 118px;
+    width: 100%;
+    position: relative;
+    background-color: #fefefe;
+    .page-title-content {
+        text-align: center;
+        h1 {
+            color: $white;
+            font-weight: 700;
+            font-size: 48px;
+            text-transform: capitalize;
+            margin-bottom: 9px;
+        }
+        p {
+            color: $white;
+            font-weight: 500;
+            line-height: 30px;
+        }
+    }
+}
