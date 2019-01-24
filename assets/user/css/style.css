@@ -28508,6 +28508,7 @@ div.tagsinput span.tag a {
 
 .navbar.horizontal-layout .nav-bottom .page-navigation > .nav-item > .nav-link {
   padding: 16px 23px;
+  text-align: center;
 }
 .navbar.horizontal-layout .nav-bottom .page-navigation > .nav-item:first-child > .nav-link {
   padding-left: 23px;
