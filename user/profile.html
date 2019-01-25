@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="csrf-token" content="TIHgKf3jf9Am2po0eO2Nk5yHhTigbuTUVGLNgmhA">
 
-    <title>Investment</title>
+    <title>Dashboard</title>
     <link rel="stylesheet" href="../assets/css/simple-line-icons.css">
     
     <link rel="stylesheet" href="../assets/user/font-awesome-4.7.0/css/font-awesome.min.css" />
@@ -128,8 +128,8 @@
     <div class="nav-top flex-grow-1">
         <div class="container d-flex flex-row h-100 align-items-center">
             <div class="text-center navbar-brand-wrapper d-flex align-items-center">
-                <a class="navbar-brand brand-logo" href="#dashboard"><img src="../assets/user/image/icon/LOGO_BEEWAY.png" /></a>
-                <a class="navbar-brand brand-logo-mini" href="#dashboard"><img src="../assets/user/image/icon/LOGO_BEEWAY.png" alt=" ltd"/></a>
+                <a class="navbar-brand brand-logo" href="#dashboard"><img src="../assets/user/image/icon/LOGO_BEEWAY.png"BIGCO ltd"/></a>
+                <a class="navbar-brand brand-logo-mini" href="#dashboard"><img src="../assets/user/image/icon/LOGO_BEEWAY.png" alt="BIGCO ltd"/></a>
             </div>
             <div class="navbar-menu-wrapper d-flex align-items-center justify-content-between flex-grow-1">
                 <ul class="navbar-nav navbar-nav-right mr-0 ml-auto">
@@ -185,7 +185,7 @@
                         <img src="../assets/user/image/icon/6.png" alt="Partners program">
                         <span class="menu-title">Partners program</span></a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a href="bigbonus.html" class="nav-link">
                         <img src="../assets/user/image/icon/7.png" alt="Big Bonus">
                         <span class="menu-title">Big Bonus</span></a>
@@ -195,7 +195,7 @@
                         <img src="../assets/user/image/icon/5.png" alt="Transactions">
                         <span class="menu-title">Transactions</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a href="profile.html" class="nav-link">
                         <img src="../assets/user/image/icon/8.png" alt="Account Setting">
                         <span class="menu-title">Account Setting</span></a>
@@ -205,69 +205,154 @@
     </div>
 </nav>
 <!--end header-->
-<script>
-    function choose(id){
-        var plans = document.getElementsByClassName("investment_img");
-        for(var i=0;i < plans.length;i++){
-           plans[i].style.border="none";
-        }
-        return document.getElementById("plan"+id).style.border="";
-    }
-</script>
+
 <!--main-->
 <div class="content-wrapper">
+    <h2 class="title_header">Profile</h2>
     <div class="row">
-        <div class="col-12 grid-margin">
-            <h2 class="title_header" style="text-align: center;padding-top: 20px;border-bottom: 1px solid #fed883;">
-                Big Bonus
-            </h2>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="_plan">
-                        <a href="javascript:void(0)" onclick="choose(1)" title="bigbonus 1">
-                            <img id="plan1" class="investment_img" src="../assets/user/image/bigbonus/1.png" alt="" style="border:none;">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="_plan">
-                        <a href="javascript:void(0)" onclick="choose(2)" title="bigbonus 2">
-                            <img id="plan2" class="investment_img" src="../assets/user/image/bigbonus/2.png" alt="" >
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="_plan">
-                        <a href="javascript:void(0)" onclick="choose(3)" title="bigbonus 3">
-                            <img id="plan3" class="investment_img" src="../assets/user/image/bigbonus/3.png" alt="" style="border:none;">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="_plan">
-                        <a href="javascript:void(0)" onclick="choose(4)" title="bigbonus 4">
-                            <img id="plan4" class="investment_img" src="../assets/user/image/bigbonus/4.png" alt="" style="border:none;">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="_plan">
-                        <a href="javascript:void(0)" onclick="choose(5)" title="bigbonus 5">
-                            <img id="plan5" class="investment_img" src="../assets/user/image/bigbonus/5.png" alt="" style="border:none;">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="_plan">
-                        <a href="javascript:void(0)" onclick="choose(6)" title="bigbonus 6">
-                            <img id="plan6" class="investment_img" src="../assets/user/image/bigbonus/6.png" alt="" style="border:none;">
-                        </a>
+        <div class="col-md-7 grid-margin">
+            <div class="card card-statistics">
+                <div class="card-body p-4">
+                    <div class="active_deposit">
+                        <div class="row">
+                            <div class="profile_input">
+                                <p>Name</p>
+                                <input type="text" name="name"> 
+                            </div>
+                            <div class="profile_input">
+                                <p>Username</p>
+                                <input type="text" name="username"> 
+                            </div>
+                            <div class="profile_input">
+                                <p>Email Address</p>
+                                <input type="text" name="email"> 
+                            </div>
+                            <div class="profile_input">
+                                <p>Gender</p>
+                                <input type="text" name="gender"> 
+                            </div>
+                            <div class="profile_input">
+                                <p>Address</p>
+                                <input type="text" name="address"> 
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="btn-active" style="margin-right: -12px;">
+                                    <a href="#investment" class="btn btn-primary btn-rounded btn-fw">Update</a> 
+                                </div> 
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <p style="text-align:center; font-size:18px; padding: 10px;">
-                If you complete one of the items above, please us know by ticking Done and confirming the system wil check and send you the corresponding bonus.
-            </p>
+        </div>
+        <div class="col-md-5 grid-margin">
+            <div class="card card-statistics">
+                <div class="card-body p-4">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="title_head">
+                                <img src="../assets/user/image/icon/avata.jpg" alt="dollar" style="width:81px;border-radius: 40px;">
+                                <div class="upload_avata">
+                                    <h4>Upload Avata</h4>
+                                    <p><i>Blance:</i></p>
+                                    <p><i>Total partners:</i></p>
+                                </div>
+                            </div>
+                            <input type="file" name="avata" style="font-size: 12px;">
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+
+            <h2 style="margin-top: 10px; font-size:18px;margin-bottom: 1px;">Change Password</h2>
+            <div class="card card-statistics">
+                <div class="card-body p-4">
+                    <div class="row">
+                            <div class="profile_input" style="margin-top: -25px;">
+                                <p>Current password</p>
+                                <input type="password" name="current_password"> 
+                            </div>
+                            <div class="profile_input">
+                                <p>New password</p>
+                                <input type="password" name="new_password"> 
+                            </div>
+                            <div class="profile_input">
+                                <p>Confirm password</p>
+                                <input type="password" name="confirm_password"> 
+                            </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="btn-active">
+                                <a href="#deposit" class="btn btn-primary">Save</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 grid-margin">
+            <h2 style="padding: 10px 0px;">Wallet</h2>
+            <div class="card">
+                <div class="card-body">
+                    <p for="amount">Bitcoin address</p>
+                    <div class="row pm_method">
+                        <input class="amount_to_withdrawal" type="text" name="bitcoin_address" value="" style="border:1px solid black;">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p for="amount">ETH address</p>
+                    <div class="row pm_method">
+                        <input class="amount_to_withdrawal" type="text" name="eth_address" value="" style="border:1px solid black;">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p for="amount">Current password</p>
+                    <div class="row pm_method">
+                        <input class="amount_to_withdrawal" type="text" name="" value="" style="border:1px solid black;">
+                    </div>
+                </div> 
+                <div class="card-body">
+                    <div class="row pm_method" style="float:right;">
+                        <button class="btn" style="background: #ffb822; color:white; margin-right: 10px;">Update Received Wallet Address</button>
+                        <button class="btn">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 grid-margin">
+            <h2 style="padding: 10px 0px;">Enable Two Factor Authention</h2>
+            <div class="card" style="padding: 20px;">
+                <span style="text-align: center; padding: 20px; font-size: 20px;">
+                    Enable Two Factor Authention
+                </span>
+                <div class="digit">
+                    <div class="_code">6-digit verification code</div>
+                    <p>Enter the number that you see into the "6-digit verification code" field then click the "Enable Two-Factor Authention now" button.</p>
+                    <button class="btn">Enable Two-Factor Authention now</button>
+                    <h5>Here are a few common authenticator apps that can be found in your mobile device app store:</h5>
+                    <ul>
+                        <li><a href="#">Authy for IOS, Android, Chrome, OS X</a></li>
+                        <li><a href="#">FreeOTP for IOS, Android and Pebble</a></li>
+                        <li><a href="#">Google Authenticator for IOS</a></li>
+                        <li><a href="#">Google Authenticator for Android</a></li>
+                        <li><a href="#">Google Authenticator (port) on Windows Store</a></li>
+                        <li><a href="#">Google Authenticator for Windows Phone</a></li>
+                        <li><a href="#">LastPass Authenticator for IOS, Android, OS X, Windows</a></li>
+                        <li><a href="#">1Password for IOS, Android, OS X, Windows</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -292,10 +377,6 @@
     function showLoading() {
         var mdl = "#md-loading";
         $(mdl).show();
-    }
-    var plans = document.getElementsByClassName("investment_img");
-    for(var i=0;i < plans.length;i++){
-        plans[i].style.border="none";
     }
 </script>
 </body>

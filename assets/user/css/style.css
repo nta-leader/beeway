@@ -29176,7 +29176,7 @@ option {
   font-size: 14px;
 }
 .card .card-body p{
-  font-size: 18px;
+  font-size: 15px;
 }
 .amount_to_withdrawal{
   width: 100%;
@@ -29221,6 +29221,61 @@ option {
   position: absolute;
   top: 16px;
   left: 50px;
+}
+.profile_input{
+    width: 100%;
+}
+.profile_input p{
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+.profile_input input{
+  width: 100%;
+  border: 1px solid black;
+  height: 38px;
+  padding: 10px 10px 10px 15px;
+  border-radius: 5px;
+}
+.upload_avata{
+  position: absolute;
+  top: 1px;
+  left: 120px;
+}
+.upload_avata h4{
+  
+}
+.upload_avata p{
+  padding: 0px;
+  margin: 0px;
+}
+.digit{text-align: center;}
+.digit p{
+ text-align: center;
+ padding: 10px;
+ margin: 0;
+}
+.digit button{
+  background: #ffb822;
+  color: white;
+}
+.digit h5{
+  padding: 25px 10px;
+}
+.digit ul{
+  width: 35%;
+  margin: 0 auto;
+}
+.digit ul li{
+  text-align: left;
+}
+._code{
+  border: 1px solid black;
+  width: 25%;
+  text-align: center;
+  margin: 0 auto;
+  color: #9E9E9E;
+  padding: 5px;
+  border-radius: 5px;
 }
 /*-------------------------------------------------------------------*/
 /* === Layouts === */
