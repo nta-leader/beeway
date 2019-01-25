@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="csrf-token" content="TIHgKf3jf9Am2po0eO2Nk5yHhTigbuTUVGLNgmhA">
 
-    <title>Transactions</title>
+    <title>Partners Program</title>
     <link rel="stylesheet" href="../assets/css/simple-line-icons.css">
     
     <link rel="stylesheet" href="../assets/user/font-awesome-4.7.0/css/font-awesome.min.css" />
@@ -180,7 +180,7 @@
                         <span class="menu-title">Withdrawal</span></a>
                 </li>
                 
-                <li class="nav-item">
+                <li class="nav-item active">
                     <a href="PartnersProgram.html" class="nav-link">
                         <img src="../assets/user/image/icon/6.png" alt="Partners program">
                         <span class="menu-title">Partners program</span></a>
@@ -190,7 +190,7 @@
                         <img src="../assets/user/image/icon/7.png" alt="Earn money">
                         <span class="menu-title">Earn money</span></a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a href="transactions.html" class="nav-link">
                         <img src="../assets/user/image/icon/5.png" alt="Transactions">
                         <span class="menu-title">Transactions</span></a>
@@ -206,76 +206,111 @@
 </nav>
 <!--end header-->
 
+<!--main-->
 <div class="content-wrapper">
+    <h2 class="title_header">Partners Program</h2>
     <div class="row">
-        <div class="col-12 grid-margin">
-            <h2 class="title_header">Transaction history</h2>
-            <div class="card card-statistics dataTables_wrapper">
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6">
-                            <div class="dataTables_length" id="order-listing_length">
-                                <form id="frmSearch" method="get">
-                                    <label>Show
-                                        <select name="transactions_type" class="form-control">
-                                            <option selected="" value="0">All transactions</option>
-                                            <option value="1">Deposit</option>
-                                            <option value="3">Withdrawal</option>
-                                            <option value="4">Income</option>
-                                            <option value="2">Invest</option>
-                                            <option value="5">Ref commission</option>
-                                            <option value="6">Send</option>
-                                            <option value="7">Received</option>
-                                        </select>
-                                    </label>
-                                </form>
+        <div class="col-md-6 grid-margin">
+            <div class="card card-statistics">
+                <div class="card-body p-4">
+                    <div class="active_deposit">
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>Deposited by partners</h2>
+                            </div>
+                            
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-5">
+                                <div class="btn-active" style="float: left;padding-top: 10px;">
+                                    <img src="../assets/user/image/icon/3a.png" >
+                                </div>
                             </div>
                         </div>
 
                     </div>
-
-                    <div class="row">
-                        <div class="table-responsive">
-                            <span style="margin-left: 5px;"> Found 0 records</span>
-                            <div class="">
-                                <table class="table">
-                                    <thead>
-                                        <tr>
-                                            <th>ID #</th>
-                                            <th>Amount</th>
-                                            <th>Note</th>
-                                            <th>Type</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                    </tbody>
-                                </table>
-
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                    <br>
-
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 grid-margin">
+            <div class="card card-statistics">
+                <div class="card-body p-4">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="float-right"></div>
+                            <div class="title_head">
+                                <h2>Your referral link</h2>
+                            </div>
                         </div>
                     </div>
 
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="btn-active" style="float: left;">
+                                <a href="#deposit" class="btn btn-primary">Copy link to clipboard</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="your_partners" style="padding: 0px; width:100%;">
+                                <img src="../assets/user/image/icon/1a.png" alt="">
+                                <div class="info_status_partners">
+                                    <h3 class="partners_title" style="font-size: 15px;">Referrals</h3>
+                                </div>
+                                <div class="box_balance shadown">
+                                    #1
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="your_partners" style="padding: 0px; width:100%;">
+                                <img src="../assets/user/image/icon/3a.png" alt="">
+                                <div class="info_status_partners">
+                                    <h3 class="partners_title" style="font-size: 15px;">Active referrals</h3>
+                                </div>
+                                <div class="box_balance shadown">
+                                    #1
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="your_partners" style="padding: 0px; width:100%;">
+                                <img src="../assets/user/image/icon/1aa.png" alt="">
+                                <div class="info_status_partners">
+                                    <h3 class="partners_title" style="font-size: 15px;">Total referral commission</h3>
+                                </div>
+                                <div class="box_balance shadown">
+                                    #1
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+<!--end main-->
 
+<!--footer-->
 <footer class="footer">
     <div class="w-100 clearfix">
         <span class="text-muted d-block text-center text-sm-left d-sm-inline-block">Copyright © 2018 <a href="#" target="_blank">Beeway</a>. All rights reserved.</span>
         <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Investment Platform </span>
     </div>
 </footer>
-   
+<!--end footer-->
+
 <script src="../assets/user/js/vendor.bundle.base.js?ver=2"></script>
 <script src="../assets/user/js/vendor.bundle.addons.js?ver=2"></script>
 <script src="../assets/user/js/template.js?ver=2"></script>
@@ -288,7 +323,6 @@
         $(mdl).show();
     }
 </script>
-
 </body>
 </html>
 

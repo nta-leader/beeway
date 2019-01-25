@@ -29172,7 +29172,9 @@ option {
 }
 .total_profit{width: 100%;padding: 0px;}
 .total_profit span{font-size: 20px;}
-.total_profit h3{font-size: 14px;}
+.total_profit h3{
+  font-size: 14px;
+}
 .card .card-body p{
   font-size: 18px;
 }
@@ -29212,6 +29214,13 @@ option {
   position: absolute;
   top:0px;
   right:0px;
+}
+
+.partners_title{
+  font-size: 15px;
+  position: absolute;
+  top: 16px;
+  left: 50px;
 }
 /*-------------------------------------------------------------------*/
 /* === Layouts === */
