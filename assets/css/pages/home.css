@@ -1,0 +1,106 @@
+
+.item{
+    position: absolute;
+    top: 36%;
+    left: 20%;
+}
+.item .title{
+    margin-top: 35px;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}
+.item .number{
+    width: 100%;
+}
+.item .number span{
+    background: #060606;
+    color: white;
+    padding: 20px 15px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+@media (max-width: 1199px) and (min-width:991px){
+    .item{
+        position: absolute;
+        top: 36%;
+        left: 20%;
+    }
+    .item .title{
+        margin-top: 35px;
+        text-align: center;
+        color: black;
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .item .number{
+        width: 100%;
+    }
+    .item .number span{
+        padding: 15px 13px;
+        font-size: 18px;
+    }
+}
+@media (max-width: 990px) and (min-width:766px){
+    .item{
+        position: absolute;
+        top: 36%;
+        left: 20%;
+    }
+    .item .title{
+        margin-top: 24px;
+        text-align: center;
+        color: black;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .item .number{
+        width: 100%;
+    }
+    .item .number span{
+        padding: 12px 9px;
+        font-size: 15px;
+    }
+}
+@media (max-width: 767px) and (min-width:321px){
+    .item{
+        position: absolute;
+        top: 36%;
+        left: 16%;
+    }
+    .item .title{
+        margin-top: 35px;
+        text-align: center;
+        color: black;
+        font-weight: 600;
+        font-size: 31px;
+    }
+    .item .number{
+        width: 100%;
+    }
+    .item .number span{
+        padding: 22px 17px;
+        font-size: 32px;
+    }
+}
+@media (max-width: 320px){
+    .item{
+        position: absolute;
+        top: 36%;
+        left: 19%;
+    }
+    .item .title{
+        margin-top: 35px;
+        text-align: center;
+        color: black;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .item .number{
+        width: 100%;
+    }
+    .item .number span{
+        padding: 18px 14px;
+        font-size: 17px;
+    }
+}

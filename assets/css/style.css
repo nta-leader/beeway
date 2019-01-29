@@ -598,9 +598,10 @@ ul {
     feature
 ==========================================*/
 .info-feature {
-  background: #fefefe;
+  background: #312b2b;
   padding: 120px 0;
-  margin-top: -350px; }
+  margin-top: -300px;
+  }
   .info-feature .info-single-feature {
     background: #fff;
     padding: 40px 30px 18px;
