@@ -1,3 +1,18 @@
+/* login */
+.btn-login{
+    background: #ff9d00;
+    color: white;
+    font-size: 12px;
+    border-radius: 50px;
+    font-weight: 700;
+}
+.btn-register{
+    background: #ff9d00;
+    color: white;
+    font-size: 12px;
+    border-radius: 50px;
+    font-weight: 700;
+}
 
 .item{
     position: absolute;
@@ -20,6 +35,47 @@
     border-radius: 5px;
     font-size: 25px;
 }
+
+/*investment*/
+
+.item-title{
+    width: 100%;
+    padding: 20px 5px;
+}
+.item-title .title{
+    background:#0f0f0f;
+    width: 265px;
+    margin: 0 auto;
+    margin-top: -38px;
+    text-align: center;
+    color: #ff9d00;
+    font-size: 32px;
+}
+.item-title hr{
+    background: yellow;
+}
+.plan{
+    width: 50%;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+/*SMART INVESTMENT PACKAGES*/
+.item-sip{
+    padding: 5px;
+}
+
+/**/
+.part_icon{
+    text-align: center;
+}
+.part_icon img{
+    margin-top: -5px;
+    margin-left: 1px;
+}
+
+/*response*/
+
 @media (max-width: 1199px) and (min-width:991px){
     .item{
         position: absolute;
@@ -39,6 +95,11 @@
     .item .number span{
         padding: 15px 13px;
         font-size: 18px;
+    }
+}
+@media (max-width:990px){
+    .header {
+        background :white;
     }
 }
 @media (max-width: 990px) and (min-width:766px){
@@ -62,28 +123,130 @@
         font-size: 15px;
     }
 }
-@media (max-width: 767px) and (min-width:321px){
+@media (max-width: 767px) and (min-width:576px){
+    .item-total{
+        width: 33.33%;
+    }
     .item{
         position: absolute;
         top: 36%;
-        left: 16%;
+        left: 21%;
+    }
+    .item .title{
+        margin-top: 10px;
+        text-align: center;
+        color: black;
+        font-weight: 600;
+        font-size: 11px;
+    }
+    .item .number{
+        width: 100%;
+    }
+    .item .number span{
+        padding: 10px 5px;
+        font-size: 15px;
+    }
+}
+@media (min-width: 412px) and (max-width:575px){
+    .plan{
+        width: 100%;
+    }
+    .item{
+        position: absolute;
+        top: 36%;
+        left: 19%;
     }
     .item .title{
         margin-top: 35px;
         text-align: center;
         color: black;
         font-weight: 600;
-        font-size: 31px;
+        font-size: 25px;
     }
     .item .number{
         width: 100%;
     }
     .item .number span{
-        padding: 22px 17px;
-        font-size: 32px;
+        padding: 23px 18px;
+        font-size: 25px;
     }
 }
-@media (max-width: 320px){
+@media (min-width: 376px) and (max-width:411px){
+    .plan{
+        width: 100%;
+    }
+    .item{
+        position: absolute;
+        top: 36%;
+        left: 19%;
+    }
+    .item .title{
+        margin-top: 35px;
+        text-align: center;
+        color: black;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .item .number{
+        width: 100%;
+    }
+    .item .number span{
+        padding: 23px 19px;
+        font-size: 20px;
+    }
+}
+@media (min-width: 361px) and (max-width:375px){
+    .plan{
+        width: 100%;
+    }
+    .item{
+        position: absolute;
+        top: 36%;
+        left: 19%;
+    }
+    .item .title{
+        margin-top: 35px;
+        text-align: center;
+        color: black;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .item .number{
+        width: 100%;
+    }
+    .item .number span{
+        padding: 21px 17px;
+        font-size: 20px;
+    }
+}
+@media (min-width: 330px) and (max-width:360px){
+    .plan{
+        width: 100%;
+    }
+    .item{
+        position: absolute;
+        top: 36%;
+        left: 19%;
+    }
+    .item .title{
+        margin-top: 35px;
+        text-align: center;
+        color: black;
+        font-weight: 600;
+        font-size: 25px;
+    }
+    .item .number{
+        width: 100%;
+    }
+    .item .number span{
+        padding: 18px 17px;
+        font-size: 16px;
+    }
+}
+@media (min-width: 320px) and (max-width:329px){
+    .plan{
+        width: 100%;
+    }
     .item{
         position: absolute;
         top: 36%;
