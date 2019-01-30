@@ -1,3 +1,33 @@
+.btn_mobile{
+  background: #ffa100;
+  font-size: 10px;
+  padding: 14px 12px;
+  border-radius: 5px;
+  font-weight: 800;
+}
+.login_mobile{
+}
+.register_mobile{
+    
+}
+.btn_item{
+  margin-top: 7px;
+  float: right;
+  margin-right: 3px;
+}
+.btn_item a{
+  
+}
+
+@media (max-width:350px){
+  .btn_mobile {
+    background: #ffa100;
+    font-size: 9px;
+    padding: 14px 9px;
+    border-radius: 5px;
+    font-weight: 800;
+  }
+}
 /* =================================
  css index
  =================================
@@ -718,7 +748,7 @@ ul {
   .litehyip-features .single-feature .part-text h3 {
     color: #ffffff;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 17px;
     margin-bottom: 15px;
     }
   .litehyip-features .single-feature .part-text p {
@@ -1820,3 +1850,15 @@ ul {
       -webkit-transform: scale(1);
       -ms-transform: scale(1);
       transform: scale(1); }
+      @media (max-width: 990px){
+        .mobile_logo{
+            height:40px;
+        }
+        .header .main-menu .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item {
+          padding: 15px 20px;
+          border-bottom: 1px solid rgba(107, 58, 219, 0.25);
+          font-weight: 500;
+          color: #6c5ad9;
+          background: #ffffff;
+        }
+      }
