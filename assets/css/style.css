@@ -368,7 +368,7 @@
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: #6a38da;
+  background-color: #0f0f0f;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -382,7 +382,8 @@
   z-index: 9999;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center; }
+  justify-content: center;
+  }
 
 .loader,
 .loader hr {
@@ -569,7 +570,7 @@ ul {
         .header .main-menu .navbar .navbar-nav .nav-item:first-child {
           padding-left: 0; }
         .header .main-menu .navbar .navbar-nav .nav-item:hover {
-          color: #1add97; }
+          color: #ff9d00; }
   .header .login {
     text-align: right;
     width: 100%; }
@@ -577,16 +578,16 @@ ul {
       display: inline-block;
       color: #fff;
       font-weight: 600;
-      background: #1add97;
+      background: #ff9d00;
       font-size: 16px;
       padding: 15px 51px;
       width: 140px;
-      border: 1px solid #1add97;
+      border: 1px solid #ff9d00;
       border-radius: 50px; }
       .header .login a:hover {
-        border: 1px solid #1add97;
+        border: 1px solid #ff9d00;
         background: transparent;
-        color: #1add97; }
+        color: #ff9d00; }
 
 /*==========================================
     banner
@@ -614,9 +615,9 @@ ul {
       display: inline-block;
       color: #fff;
       font-weight: 600;
-      background: #1add97;
+      background: #ff9d00;
       font-size: 16px;
-      border: 1px solid #1add97;
+      border: 1px solid #ff9d00;
       padding: 15px 51px;
       border-radius: 50px;
       margin: 18px 8px 0;
@@ -630,8 +631,8 @@ ul {
         background: transparent;
         border: 1px solid #fff; }
         .banner .banner-content a:last-child:hover {
-          background: #1add97;
-          border: 1px solid #1add97; }
+          background: #ff9d00;
+          border: 1px solid #ff9d00; }
 
 /*==========================================
     feature
@@ -728,19 +729,19 @@ ul {
       width: 100%;
       height: 100%; }
   .litehyip-features .single-feature:hover .part-icon {
-    background: #1add97;
+    background: #ff9d00;
     color: #fff; }
   .litehyip-features .single-feature .part-icon {
     width: 80px;
     height: 80px;
     background: #fff;
-    color: #1add97;
+    color: #ff9d00;
     border-radius: 50%;
     text-align: center;
     line-height: 80px;
     font-size: 35px;
-    -webkit-box-shadow: 0px 16px 84px -20px #1add97;
-    box-shadow: 0px 16px 84px -20px #1add97;
+    -webkit-box-shadow: 0px 16px 84px -20px #ff9d00;
+    box-shadow: 0px 16px 84px -20px #ff9d00;
     margin-bottom: 24px;
     -webkit-transition: all 0.3s ease-in;
     -o-transition: all 0.3s ease-in;
@@ -752,11 +753,14 @@ ul {
     margin-bottom: 15px;
     }
   .litehyip-features .single-feature .part-text p {
-    color: #3f4b6e;
-    line-height: 30px; }
+    color: #ffffff;
+    line-height: 30px;
+    }
 
 .litehyip-features.about-page {
-  padding: 110px 0 99px; }
+  padding: 110px 0 99px;
+  background: #101010;
+  }
 
 /*==========================================
     we thinking global
@@ -798,7 +802,7 @@ ul {
     transition: all 0.3s ease-in;
     }
     .we-thinking-global .part-text a:hover {
-      background: #1add97;
+      background: #ff9d00;
       color: #fff; }
 
 /*==========================================
@@ -823,7 +827,8 @@ ul {
     margin-top: -9px;
     margin-bottom: 20px; }
     .inventor .part-text h2 span {
-      color: #1add97; }
+      color: #ff9d00;
+      }
   .inventor .part-text p {
     color: #fff;
     margin: 0;
@@ -877,9 +882,11 @@ ul {
     background: #1e3056;
     z-index: -1; }
   .inventor.about-page .part-text h2 {
-    color: #455164; }
+    color: #ffffff;
+    }
   .inventor.about-page .part-text p {
-    color: #575f84; }
+    color: #ffffff;
+    }
 
 /*==========================================
     testimonial
@@ -1008,12 +1015,12 @@ ul {
       -o-transition: all 0.3s ease-in;
       transition: all 0.3s ease-in; }
       .newsletter .newsletter-form input:focus {
-        border: 1px solid #1add97; }
+        border: 1px solid #ff9d00; }
     .newsletter .newsletter-form button {
       height: 60px;
       width: 160px;
-      background: #1add97;
-      border: 1px solid #1add97;
+      background: #ff9d00;
+      border: 1px solid #ff9d00;
       border-radius: 50px;
       color: #fff;
       font-weight: 600;
@@ -1028,19 +1035,20 @@ ul {
       transition: all 0.3s ease-in; }
       .newsletter .newsletter-form button:hover {
         background: #fff;
-        border: 1px solid #1add97;
-        color: #1add97; }
+        border: 1px solid #ff9d00;
+        color: #ff9d00; }
 
 /*==========================================
     page title
 ==========================================*/
 .page-title {
-  background: url(../img/info-feature-bg.png) center bottom no-repeat;
+  background: url(../img/Singapore.jpg) center bottom no-repeat;
   background-size: cover;
   padding: 208px 0 118px;
   width: 100%;
   position: relative;
-  background-color: #fefefe; }
+  background-color: #fefefe;
+  }
   .page-title .page-title-content {
     text-align: center; }
     .page-title .page-title-content h1 {
@@ -1105,7 +1113,7 @@ ul {
     font-size: 16px;
     padding: 11px 0; }
     .footer .links li a:hover {
-      color: #1add97;
+      color: #ff9d00;
       -webkit-transition: all 0.3s ease-in;
       -moz-transition: all 0.3s ease-in;
       -o-transition: all 0.3s ease-in;
@@ -1128,7 +1136,8 @@ ul {
 ==========================================*/
 .video {
   padding: 108px 0 97px;
-  background: #fefefe; }
+  background: #0f0f0f;
+  }
   .video .section-title {
     margin-bottom: 57px; }
     .video .section-title h2 {
@@ -1147,7 +1156,7 @@ ul {
       top: 50%;
       margin-top: -35px;
       margin-left: -35px;
-      color: #1add97;
+      color: #ff9d00;
       height: 70px;
       width: 70px;
       border: 10px solid rgba(26, 221, 150, 0.527);
@@ -1159,20 +1168,25 @@ ul {
     margin-top: 56px; }
     .video .part-text h3 {
       font-size: 18px;
-      color: #455164;
+      color: #ffffff;
       font-weight: 600;
-      margin-bottom: 21px; }
+      margin-bottom: 21px;
+      }
       .video .part-text h3 span {
-        color: #1add97; }
+        color: #ff9d00;
+        }
     .video .part-text p {
-      color: #575f84;
-      line-height: 30px; }
+      color: #ffffff;
+      line-height: 30px;
+      }
 
 /*==========================================
     investment-plan page > transaction
 ==========================================*/
 .transaction {
-  padding: 108px 0 104px; }
+  padding: 108px 0 104px;
+  background: #0f0f0f;
+  }
   .transaction .section-title {
     margin-bottom: 57px; }
   .transaction .transaction-area .nav-tabs {
@@ -1189,18 +1203,18 @@ ul {
       color: #fff;
       font-weight: 600;
       background: transparent;
-      border: 1px solid #1add97;
+      border: 1px solid #ff9d00;
       font-size: 16px;
-      border: 1px solid #1add97;
+      border: 1px solid #ff9d00;
       padding: 15px 0;
       text-align: center;
       width: 140px;
       border-radius: 50px;
       margin-right: 30px;
-      color: #1add97; }
+      color: #ff9d00; }
       .transaction .transaction-area .nav-tabs .nav-item .nav-link.active, .transaction .transaction-area .nav-tabs .nav-item .nav-link:focus, .transaction .transaction-area .nav-tabs .nav-item .nav-link:hover {
-        background: #1add97;
-        border: 1px solid #1add97;
+        background: #ff9d00;
+        border: 1px solid #ff9d00;
         color: #fff; }
     .transaction .transaction-area .nav-tabs .nav-item:last-child .nav-link {
       margin-right: 0; }
@@ -1214,7 +1228,9 @@ ul {
         padding: 23px 15px;
         font-size: 22px;
         font-weight: 600;
-        color: #455164; }
+        color: #f8fefc;
+        background: #0a0a0a;
+        }
         .transaction .transaction-area .tab-content .table thead th:first-child {
           padding-left: 38px; }
       .transaction .transaction-area .tab-content .table thead td {
@@ -1223,7 +1239,9 @@ ul {
       padding-bottom: 30px; }
     .transaction .transaction-area .tab-content .table tbody tr th {
       border-top: none;
-      padding-left: 40px; }
+      padding-left: 40px;
+      color: red;
+      }
       .transaction .transaction-area .tab-content .table tbody tr th .user-img {
         width: 50px;
         height: 50px;
@@ -1234,13 +1252,15 @@ ul {
           width: 100%; }
       .transaction .transaction-area .tab-content .table tbody tr th span {
         font-size: 16px;
-        color: #455164;
-        padding-top: 15px; }
+        color: #ffffff;
+        padding-top: 15px;
+        }
     .transaction .transaction-area .tab-content .table tbody tr td {
       padding: 28px 15px;
       border-top: none;
-      color: #455164;
-      font-size: 16px; }
+      color: #f8fefc;
+      font-size: 16px;
+      }
       .transaction .transaction-area .tab-content .table tbody tr td:last-child {
         padding-right: 40px; }
 
@@ -1310,7 +1330,7 @@ ul {
       .pricing .single-plan.popular h3, .pricing .single-plan.popular h4, .pricing .single-plan.popular li, .pricing .single-plan.popular h5 {
         color: #fff; }
       .pricing .single-plan.popular a.start-button {
-        background: #1add97;
+        background: #ff9d00;
         -webkit-transition: all 0.3s ease-in;
         -moz-transition: all 0.3s ease-in;
         -o-transition: all 0.3s ease-in;
@@ -1319,10 +1339,10 @@ ul {
           display: none; }
         .pricing .single-plan.popular a.start-button:hover {
           background: #fff;
-          color: #1add97; }
+          color: #ff9d00; }
     .pricing .single-plan h3 {
       font-size: 24px;
-      color: #1add97;
+      color: #ff9d00;
       font-weight: 600;
       margin-bottom: 20px; }
     .pricing .single-plan h4 {
@@ -1335,7 +1355,7 @@ ul {
       font-size: 16px;
       padding: 7px 0; }
     .pricing .single-plan h5 {
-      color: #1add97;
+      color: #ff9d00;
       font-weight: 600;
       margin-top: 21px;
       margin-bottom: 34px; }
@@ -1382,7 +1402,9 @@ ul {
     investment-plan page > payment
 ==========================================*/
 .payment {
-  padding: 118px 0 120px; }
+  padding: 118px 0 120px;
+  background: #0f0f0f;
+  }
   .payment .section-title {
     margin-top: -10px; }
     .payment .section-title h2 {
@@ -1418,7 +1440,7 @@ ul {
         font-size: 18px; }
     .payment .part-form .payment-form button {
       display: inline-block;
-      background: #1add97;
+      background: #ff9d00;
       -webkit-transition: all 0.3s ease-in;
       -moz-transition: all 0.3s ease-in;
       -o-transition: all 0.3s ease-in;
@@ -1429,19 +1451,21 @@ ul {
       color: #fff;
       width: 160px;
       border-radius: 50px;
-      border: 1px solid #1add97;
+      border: 1px solid #ff9d00;
       margin-top: 24px;
       cursor: pointer; }
       .payment .part-form .payment-form button:hover {
         background: #fff;
-        color: #1add97; }
+        color: #ff9d00; }
 
 /*==========================================
     blog-post page > blog
 ==========================================*/
 .blog-post {
   padding: 106px 0 90px;
-  position: relative; }
+  position: relative;
+  background: #0f0f0f;
+  }
   .blog-post .section-title {
     margin-bottom: 58px; }
   .blog-post .bg-img {
@@ -1555,14 +1579,17 @@ ul {
 ==========================================*/
 .faq {
   padding: 108px 0 90px;
-  background: #fff; }
+  background: #0f0f0f;
+  }
   .faq .section-title {
     margin-bottom: 57px; }
     .faq .section-title h2 {
       margin-bottom: 22px; }
   .faq .accordion .card {
     border: none;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    background: #272525;
+    }
     .faq .accordion .card:not(:first-of-type) .card-header:first-child {
       border-radius: 10px; }
     .faq .accordion .card .card-header {
@@ -1570,9 +1597,11 @@ ul {
       border-radius: 10px;
       padding: 0; }
       .faq .accordion .card .card-header h5 {
-        padding: 0; }
+        padding: 0;
+        background: #272525;
+        }
         .faq .accordion .card .card-header h5 button {
-          color: #455164;
+          color: #ffffff;
           font-size: 18px;
           font-weight: 600;
           text-decoration: none;
@@ -1581,11 +1610,12 @@ ul {
           display: block;
           width: 100%;
           text-align: left;
-          background: #fff;
+          background: #272525;
           -webkit-box-shadow: 0px -50px 140px 0px rgba(69, 81, 100, 0.1);
           box-shadow: 0px -50px 140px 0px rgba(69, 81, 100, 0.1);
           border-radius: 10px 10px 0 0;
-          position: relative; }
+          position: relative;
+          }
           .faq .accordion .card .card-header h5 button:after {
             position: absolute;
             left: 30px;
@@ -1594,9 +1624,9 @@ ul {
             width: 20px;
             height: 20px;
             background-color: transparent;
-            color: #1add97;
+            color: #ff9d00;
             text-align: center;
-            border: 1px solid #1add97;
+            border: 1px solid #ff9d00;
             border-radius: 50%;
             line-height: 100%;
             content: '\f067';
@@ -1605,14 +1635,15 @@ ul {
             font-family: "Font Awesome 5 Free";
             font-weight: 900; }
           .faq .accordion .card .card-header h5 button.collapsed {
-            background: #eef1fb;
+            background: #272525;
             border-radius: 10px;
             -webkit-box-shadow: none;
-            box-shadow: none; }
+            box-shadow: none;
+            }
         .faq .accordion .card .card-header h5 button[aria-expanded="true"]:after {
           content: '\f068';
           color: #fff;
-          background: #1add97; }
+          background: #ff9d00; }
     .faq .accordion .card .card-body {
       -webkit-box-shadow: 0px 15px 140px 0px rgba(69, 81, 100, 0.1);
       box-shadow: 0px 15px 140px 0px rgba(69, 81, 100, 0.1);
@@ -1620,19 +1651,23 @@ ul {
       padding-top: 0;
       margin-top: -4px;
       padding-left: 72px;
-      padding-right: 70px; }
+      padding-right: 70px;
+      color: white;
+      }
 
 /*==========================================
     contact page > contact
 ==========================================*/
 .contact {
-  padding: 108px 0 120px; }
+  padding: 108px 0 120px;
+  background: #0f0f0f;
+  }
   .contact .section-title {
     margin-bottom: 57px; }
     .contact .section-title h2 {
       margin-bottom: 22px; }
   .contact .contact-form {
-    background: #fff;
+    background: #353535;
     -webkit-box-shadow: 0px 0px 250px 0px rgba(69, 81, 100, 0.1);
     box-shadow: 0px 0px 250px 0px rgba(69, 81, 100, 0.1);
     padding: 46px 50px 50px;
@@ -1641,7 +1676,8 @@ ul {
     /* Base for label styling */
     /* checkbox aspect */
     /* checked mark aspect */
-    /* checked mark aspect changes */ }
+    /* checked mark aspect changes */
+    }
     .contact .contact-form .form-group {
       margin-bottom: 25px; }
       .contact .contact-form .form-group.checkbox {
@@ -1662,21 +1698,23 @@ ul {
       .contact .contact-form .form-group.fieldset {
         margin: 13px 0 21px; }
       .contact .contact-form .form-group label {
-        color: #455164;
+        color: #ff9d00;
         font-size: 16px;
         font-weight: 600;
-        margin-bottom: 13px; }
+        margin-bottom: 13px;
+        }
         .contact .contact-form .form-group label .requred {
-          color: #1add97; }
+          color: #ff9d00; }
       .contact .contact-form .form-group input.form-control {
         height: 60px;
         border: none;
-        background: #f3f6ff;
-        color: #455164;
+        background: #4e4b4b;
+        color: #ffffff;
         font-size: 14px;
         padding: 10px 30px;
         font-weight: 500;
-        width: 100%; }
+        width: 100%;
+        }
         .contact .contact-form .form-group input.form-control::-webkit-input-placeholder {
           opacity: .8; }
         .contact .contact-form .form-group input.form-control:-ms-input-placeholder {
@@ -1688,11 +1726,12 @@ ul {
       .contact .contact-form .form-group textarea {
         height: 160px;
         border: none;
-        background: #f3f6ff;
-        color: #455164;
+        background: #4e4b4a;
+        color: #ffffff;
         font-size: 14px;
         padding: 30px 30px;
-        font-weight: 500; }
+        font-weight: 500;
+        }
         .contact .contact-form .form-group textarea::-webkit-input-placeholder {
           opacity: .8; }
         .contact .contact-form .form-group textarea:-ms-input-placeholder {
@@ -1727,7 +1766,7 @@ ul {
           top: 0;
           width: 18px;
           height: 18px;
-          border: 3px solid #1add97;
+          border: 3px solid #ff9d00;
           border-radius: 100%;
           background: #fff; }
         .contact .contact-form .form-group .form-check [type="radio"]:checked + label:after,
@@ -1735,7 +1774,7 @@ ul {
           content: '';
           width: 8px;
           height: 8px;
-          background: #1add97;
+          background: #ff9d00;
           position: absolute;
           top: 5px;
           left: 5px;
@@ -1771,10 +1810,10 @@ ul {
     .contact .contact-form button {
       height: 60px;
       width: 160px;
-      background: #1add97;
+      background: #ff9d00;
       color: #fff;
       border-radius: 50px;
-      border: 1px solid #1add97;
+      border: 1px solid #ff9d00;
       cursor: pointer;
       -webkit-transition: all 0.3s ease-in;
       -moz-transition: all 0.3s ease-in;
@@ -1787,7 +1826,7 @@ ul {
       outline: none; }
       .contact .contact-form button:hover {
         background: #fff;
-        color: #1add97; }
+        color: #ff9d00; }
       .contact .contact-form button.submit-button {
         right: 0;
         margin-left: 80px; }
@@ -1822,7 +1861,7 @@ ul {
       width: 20px;
       height: 20px;
       border-radius: 50px;
-      border: 3px solid #1add97;
+      border: 3px solid #ff9d00;
       background: #fff; }
     .contact .contact-form [type="checkbox"]:not(:checked) + label:after,
     .contact .contact-form [type="checkbox"]:checked + label:after {
@@ -1835,7 +1874,7 @@ ul {
       height: 10px;
       font-size: 1.3em;
       line-height: 0.8;
-      background: #1add97;
+      background: #ff9d00;
       -webkit-transition: all .2s;
       -o-transition: all .2s;
       transition: all .2s;
@@ -1862,3 +1901,22 @@ ul {
           background: #ffffff;
         }
       }
+/* login */
+.btn-login{
+  background: #ff9d00;
+  color: white;
+  font-size: 12px;
+  border-radius: 50px;
+  font-weight: 700;
+}
+.btn-register{
+  background: #ff9d00;
+  color: white;
+  font-size: 12px;
+  border-radius: 50px;
+  font-weight: 700;
+}
+.about-area a img{
+    width:100%;
+    max-width: 200px;
+}
